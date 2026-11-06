@@ -1,0 +1,95 @@
+/* DESIGN GENERAL */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    background: #f4f6f8;
+
+    color: #222;
+
+    padding: 20px;
+
+}
+
+/* TITRE */
+
+h1 {
+
+    background: #174d35;
+
+    color: white;
+
+    text-align: center;
+
+    padding: 25px 10px;
+
+    border-radius: 12px;
+
+    margin-bottom: 15px;
+
+}
+
+p {
+
+    text-align: center;
+
+    margin: 15px 0;
+
+}
+
+/* SOUS-TITRE */
+
+h2 {
+
+    margin: 25px 0 15px;
+
+    color: #174d35;
+
+}
+
+/* BOUTONS */
+
+button {
+
+    width: 100%;
+
+    padding: 17px;
+
+    margin: 8px 0;
+
+    border: none;
+
+    border-radius: 10px;
+
+    background: #198754;
+
+    color: white;
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+}
+
+/* PIED DE PAGE */
+
+body > p:last-child {
+
+    margin-top: 35px;
+
+    color: #777;
+
+    font-size: 13px;
+
+}
