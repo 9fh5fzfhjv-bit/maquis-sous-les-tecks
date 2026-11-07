@@ -1,0 +1,145 @@
+
+
+<!DOCTYPE html>
+
+<html lang="fr">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Gestion du menu - Maquis Sous les Tecks</title>
+
+  <style>
+
+    * {
+
+      box-sizing: border-box;
+
+    }
+
+    body {
+
+      margin: 0;
+
+      padding: 20px;
+
+      background: #101018;
+
+      color: white;
+
+      font-family: Arial, sans-serif;
+
+    }
+
+    h1 {
+
+      color: #d6a84b;
+
+      text-align: center;
+
+    }
+
+    .container {
+
+      max-width: 600px;
+
+      margin: 30px auto;
+
+      background: #1d1d29;
+
+      padding: 22px;
+
+      border-radius: 14px;
+
+    }
+
+    input, textarea, button {
+
+      width: 100%;
+
+      padding: 13px;
+
+      margin: 9px 0;
+
+      border: none;
+
+      border-radius: 8px;
+
+      font-size: 16px;
+
+    }
+
+    input, textarea {
+
+      background: #303040;
+
+      color: white;
+
+    }
+
+    button {
+
+      background: #d6a84b;
+
+      color: #171717;
+
+      font-weight: bold;
+
+      cursor: pointer;
+
+    }
+
+    .plat {
+
+      background: #303040;
+
+      padding: 14px;
+
+      margin-top: 12px;
+
+      border-radius: 9px;
+
+    }
+
+    .prix {
+
+      color: #d6a84b;
+
+      font-weight: bold;
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <h1>🍽️ MAQUIS SOUS LES TECKS</h1>
+
+  <div class="container">
+
+    <h2>Gestion du menu</h2>
+
+    <input id="nom" type="text" placeholder="Nom du plat">
+
+    <input id="prix" type="number" placeholder="Prix en FCFA">
+
+    <textarea id="description" placeholder="Description du plat"></textarea>
+
+    <button id="ajouter">Ajouter le plat</button>
+
+    <h2>Nos plats</h2>
+
+    <div id="liste-plats"></div>
+
+  </div>
+
+  <script type="module" src="js/menu.js"></script>
+
+</body>
+
+</html>
